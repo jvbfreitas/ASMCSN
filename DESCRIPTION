@@ -1,0 +1,25 @@
+Package: ASMCSN
+Type: Package
+Title: Additive partially scale mixtures of centered skew-normal models
+Version: 0.1.0
+Authors@R: person("João", "Freitas", email = "jvbfreitas@ime.unicamp.br", role = c("aut", "cre"))
+Description: This package includes the estimation of mean model parameters, 
+    a residual analysis, global and local influences diagnostic tools.
+Depends:
+    mgcv,
+    ssym,
+    pracma,
+    truncnorm,
+    moments,
+    MASS,
+    rmutil,
+    Matrix,
+    rootSolve,
+    cubature,
+    svMisc,
+    gam,
+    SemiPar,
+    aod,
+    ggplot2
+License: GPL-3
+LazyData: true
